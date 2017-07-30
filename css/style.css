@@ -1,15 +1,20 @@
+*
+{
+    box-sizing: border-box;
+}
+
 body
 {
     font-family: 'Lato', sans-serif;
 /*    font-family: 'Roboto', sans-serif;*/
-    background-color: aqua;
     color: #291f1a;
     font-weight: 300;
+    margin: 0;
+    padding: 0;
 }
 
 #main-nav
 {
-    display: inline-block;
     position: fixed;
     background-color: #ffffff;
     text-align: right;
@@ -19,6 +24,7 @@ body
 #main-nav li
 {
     list-style: none;
+    display: inline-block;
 }
 
 #main-nav a 
@@ -30,4 +36,10 @@ body
 
 #main-nav>ul>li>a:hover{
     color: brown;
+}
+
+#main-header
+{
+    background-image: url(../img/header-background.jpg);
+    height: 600px;
 }
