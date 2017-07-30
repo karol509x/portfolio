@@ -42,4 +42,17 @@ body
 {
     background-image: url(../img/header-background.jpg);
     height: 600px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-header-content h1
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header-content 
+{
+    padding: 30%;
 }
