@@ -12,7 +12,8 @@ body
     display: inline-block;
     position: fixed;
     background-color: #ffffff;
-    float: right;
+    text-align: right;
+    width: 100%;
 }
 
 #main-nav li
@@ -23,5 +24,10 @@ body
 #main-nav a 
 {
     color: #1ac056;
-    font-weight: 300
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#main-nav>ul>li>a:hover{
+    color: brown;
 }
